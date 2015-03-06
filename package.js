@@ -1,11 +1,11 @@
 Package.describe({
-  summary: "React 0.12.2 rendering for Meteor apps",
+  summary: "React 0.13.0 rendering for Meteor apps",
   version: "0.0.7",
-  name: "jhartma:react",
-  git: "https://github.com/jhartma/meteor-react.git"
+  name: "meteor-react",
+  git: "git@github.com:mirikle/meteor-react.git"
 });
 
-var reactVersion = "0.12.2";
+var reactVersion = "0.13.0";
 
 Npm.depends({
   "react": reactVersion,
